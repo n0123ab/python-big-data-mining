@@ -1,0 +1,82 @@
+{
+    "deprecations": [],
+    "objects": [
+        {
+        "class": "Vector_index_83bf6183_1411_4adb_b630_b2550f7c09b1_Node",
+        "creationTimeUnix": 1750139647024,
+        "id": "00001223-8585-48a0-b1d6-fd87c70459fa",
+        "lastUpdateTimeUnix": 1750139647024,
+        "properties": {
+            "dataset_id": "83bf6183-1411-4adb-b630-b2550f7c09b1",
+            "doc_hash": "dc25236544e94a92dd9b005a405644d9177346eea48d58f2f636ad5b95b6ff58",
+            "doc_id": "00001223-8585-48a0-b1d6-fd87c70459fa",
+            "document_id": "a6aa2e7e-1ee5-4430-a00f-c100a3dfce40",
+            "source": "/tmp/tmpujtus1sq/4pl9f861.txt",
+            "text": "有效条件 轴移动\n停止后 "
+        },
+        "vectorWeights": null
+        },
+        {
+        "class": "Vector_index_83bf6183_1411_4adb_b630_b2550f7c09b1_Node",
+        "creationTimeUnix": 1750141066328,
+        "id": "00005382-7eb5-458e-9407-3e713b5ebfb2",
+        "lastUpdateTimeUnix": 1750141066328,
+        "properties": {
+            "dataset_id": "83bf6183-1411-4adb-b630-b2550f7c09b1",
+            "doc_hash": "730ff2f98a9f81dab020cd31dd8331b98c94e72844c9da10dca9812adcebdfa6",
+            "doc_id": "00005382-7eb5-458e-9407-3e713b5ebfb2",
+            "document_id": "727f91bc-e554-44f1-b87e-fb69fba3a2c2",
+            "source": "/tmp/tmp2jds85p1/6ck7aaur.txt",
+            "text": "有效条件 即时\n"
+        },
+        "vectorWeights": null
+        },
+        {
+        "class": "Vector_index_83bf6183_1411_4adb_b630_b2550f7c09b1_Node",
+        "creationTimeUnix": 1750140873215,
+        "id": "00006d0e-7364-44b1-95bb-c26696ed94f8",
+        "lastUpdateTimeUnix": 1750140873215,
+        "properties": {
+            "dataset_id": "83bf6183-1411-4adb-b630-b2550f7c09b1",
+            "doc_hash": "816ba0b55ed3b23af6258a13ea02101505f028933395ef17227be537a786ba75",
+            "doc_id": "00006d0e-7364-44b1-95bb-c26696ed94f8",
+            "document_id": "2265c555-dee6-4f55-9305-5468201b6222",
+            "source": "/tmp/tmp6bbsgd1h/v0qt2o84.txt",
+            "text": "MAJOR φ"
+        },
+        "vectorWeights": null
+        },
+        {
+        "class": "Vector_index_83bf6183_1411_4adb_b630_b2550f7c09b1_Node",
+        "creationTimeUnix": 1750139840868,
+        "id": "0000854c-6df7-475d-821b-49f42ddb5e9e",
+        "lastUpdateTimeUnix": 1750139840868,
+        "properties": {
+            "dataset_id": "83bf6183-1411-4adb-b630-b2550f7c09b1",
+            "doc_hash": "0ae8ce96cb255fb59ae89dbd55ddce86f7a8795d332598bea9a7f6fe6d3af991",
+            "doc_id": "0000854c-6df7-475d-821b-49f42ddb5e9e",
+            "document_id": "c4f1c9aa-5b63-44d5-a4b6-59f973dc47e8",
+            "source": "/tmp/tmp5s7imlmg/yd5xn95p.txt",
+            "text": "单位 J"
+        },
+        "vectorWeights": null
+        },
+        // ... 省略部分对象，格式相同 ...
+        {
+        "class": "Vector_index_83bf6183_1411_4adb_b630_b2550f7c09b1_Node",
+        "creationTimeUnix": 1750140964722,
+        "id": "0004e0bc-5c43-45a2-97e6-56b4ddbe7283",
+        "lastUpdateTimeUnix": 1750140964722,
+        "properties": {
+            "dataset_id": "83bf6183-1411-4adb-b630-b2550f7c09b1",
+            "doc_hash": "d6631655ecd97d57e7a8524d696ae5b04e051e06087f3045fddb73aad84e6e32",
+            "doc_id": "0004e0bc-5c43-45a2-97e6-56b4ddbe7283",
+            "document_id": "41ed7a63-1b12-474c-887d-f284b268078a",
+            "source": "/tmp/tmpqj_p5rys/eedu12by.txt",
+            "text": "间隙"
+        },
+        "vectorWeights": null
+        }
+    ],
+    "totalResults": 25
+}
