@@ -5,3 +5,18 @@ SELECT
     SUM(CASE WHEN behavior_type = 'cart' THEN 1 ELSE 0 END) AS cart_count
 FROM userbehavior 
 WHERE datestamp BETWEEN '2004-01-01' AND '2024-12-30';
+
+
+SELECT 
+    datestamp,
+    SUM(CASE WHEN behavior_type = 'buy' THEN 1 ELSE 0 END) AS buy_count,
+    SUM(CASE WHEN behavior_type = 'pv' THEN 1 ELSE 0 END) AS click_count,
+    SUM(CASE WHEN behavior_type = 'cart' THEN 1 ELSE 0 END) AS cart_count
+FROM userbehavior
+WHERE datestamp BETWEEN '2004-01-01' AND '2024-12-30'
+GROUP BY datestamp
+HAVING 
+    SUM(CASE WHEN behavior_type = 'buy' THEN 1 ELSE 0 END) > 0
+    OR SUM(CASE WHEN behavior_type = 'pv' THEN 1 ELSE 0 END) > 0
+    OR SUM(CASE WHEN behavior_type = 'cart' THEN 1 ELSE 0 END) > 0
+ORDER BY datestamp;

@@ -2,7 +2,8 @@ import datetime
 import pymysql
 import random
 import threading
-
+#将时间戳转换为日期时间格式，并更新到 datestamp 字段
+#其中有一些负数时间戳作为错误信息而排除
 db_config = {
     'host': 'localhost',
     'port': 3306,

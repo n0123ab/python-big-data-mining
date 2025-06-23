@@ -2,6 +2,8 @@ import pymysql
 import random
 import threading
 
+# 通过多线程的方式，给淘宝一亿用户数据的 unique_id 字段更新为以1开头的十一位无序不重复随机数作为主键、
+
 BATCH_SIZE = 100000
 THREAD_NUM = 10
 
