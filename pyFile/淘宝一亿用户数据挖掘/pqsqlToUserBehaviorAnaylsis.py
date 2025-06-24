@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['SimHei'] # 用来正常显示中文标签
 plt.rcParams['axes.unicode_minus'] = False # 用来正常显示负号
 
+#这个是连接数据库方式
+#host是主机地址，port是端口号，database是数据库名称，user是用户名，password是密码
 conn = psycopg2.connect(
     host="localhost",
     port="5432",
@@ -13,8 +15,10 @@ conn = psycopg2.connect(
     user="postgres",
     password="root"
 )
-
 cur = conn.cursor()
+
+# 查询用户行为数据
+# userbehavior 就是表名称
 cur.execute("""
     SELECT 
         SUM(CASE WHEN behavior_type = 'buy' THEN 1 ELSE 0 END) AS buy_count,
